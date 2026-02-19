@@ -1,7 +1,7 @@
 {
-  "name": "koishi-plugin-open-vits",
-  "description": "vits 插件，支持 `BERT-VITS2` | `GPT-SOVITS` | `HUBERT-VITS` | `VITS` | `W2V2-VITS`",
-  "version": "2.0.6",
+  "name": "koishi-plugin-gpt-sovits-adapter",
+  "description": "提供GPT-SOVITS适配",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,7 +9,7 @@
     "dist"
   ],
   "license": "AGPL-3.0",
-  "author": "t4wefan <guanghoushi@gmail.com>",
+  "author": "Procyon <3189960265@qq.com>",
   "maintainers": [
     {
       "name": "t4wefan",
@@ -25,16 +25,17 @@
   ],
   "contributors": [
     "t4wefan <guanghoushi@gmail.com>",
-    "initencounter <2911583893@qq.com>"
+    "initencounter <2911583893@qq.com>",
+    "Procyon <3189960265@qq.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/initialencounter/koishi-plugin-open-vits.git"
+    "url": "git+https://github.com/Procyon-Nan/koishi-plugin-gpt-sovits-adapter"
   },
   "bugs": {
-    "url": "https://github.com/initialencounter/koishi-plugin-open-vits/issues"
+    "url": "https://github.com/Procyon-Nan/koishi-plugin-gpt-sovits-adapter/issues"
   },
-  "homepage": "https://github.com/initialencounter/koishi-plugin-open-vits#readme",
+  "homepage": "https://github.com/Procyon-Nan/koishi-plugin-gpt-sovits-adapter#readme",
   "keywords": [
     "chatbot",
     "koishi",
@@ -46,7 +47,7 @@
     "koishi": "^4.17.6"
   },
   "koishi": {
-    "description": "vits 插件，支持 `BERT-VITS2` | `GPT-SOVITS` | `HUBERT-VITS` | `VITS` | `W2V2-VITS`",
+    "description": "提供GPT-SOVITS适配",
     "service": {
       "implements": [
         "vits"
